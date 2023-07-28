@@ -1,2 +1,3 @@
-# website-dheikka
-My personal website, dheikka.com
+# dheikka.com
+
+This is the code for my personal website, dheikka.com.

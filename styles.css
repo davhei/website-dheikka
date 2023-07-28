@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #5a615c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* header styles */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  width: 400px;
+}
+
+.navbar-button {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.navbar-button-current {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+/* main styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  flex: 1;
+}
+
+/* footer styles */
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  color: var(--secondary-color);
+}
+
+/* homepage */
+.home-latest,
+.home-popular {
+  text-align: center;
+  margin: auto 60px;
+}
+
+.home-latest h2,
+.home-popular h2 {
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.home-latest a,
+.home-popular a {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+/* essay page */
+.essays-essays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.essays-popular {
+  margin: 20px auto;
+}
+
+.essays-popular h2,
+.essays-latest h2 {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+
+.essays-popular a,
+.essays-latest a {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+/* essay */
+.essay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.essay .title {
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+.essay .date {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.essay .text {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.essay .essay-end {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0 10px 0;
+  width: 50%;
+}
